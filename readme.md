@@ -6,7 +6,7 @@ This Node.js API allows you to download a file from one Google Drive account and
 
 Before you can use this API, you need to have the following prerequisites:
 
-1. **OAuth2 Credentials**: You must create OAuth2 credentials for both the source and destination Google Drive accounts. Follow the steps in the Google Developer Console to create OAuth2 credentials (client ID and client secret) [https://console.cloud.google.com/] and place it into .env file refer[env.example].
+1. **OAuth2 Credentials**: You must create OAuth2 credentials for both the source and destination Google Drive accounts. Follow the steps in the Google Developer Console to create OAuth2 credentials (client ID and client secret) [https://console.cloud.google.com/] and place it into .env file refer[env.example](./env.example).
 
 2. **npm Packages**: Install the required npm packages by running the following command in your project directory:
 
