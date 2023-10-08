@@ -5,7 +5,7 @@ const errorConverter = (err, _req, _res, next) => {
     if (!(error instanceof ApiError)) {
         const statusCode = error.statusCode ? 400 : 500;
         const message = error.message || statusCode;
-        error = new ApiError(statusCode, message, false, err.stack);
+        error = new ApiError(statusCode, message, err.stack);
     }
     next(error);
 };
